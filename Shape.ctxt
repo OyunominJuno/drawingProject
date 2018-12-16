@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Shape
+comment0.text=\r\n\ Shape\ class\r\n\r\n\ @author\ \ Oyunomin\ Munkhkhurel\r\n\ @version\ 1/22/2018\r\n
+comment1.params=name
+comment1.target=Shape(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Shape\r\n\ \r\n\ @param\ String\ name\ of\ the\ shape\r\n\ @throws\ IllegalArgumentException\ if\ name\ is\ null\r\n
+comment2.params=
+comment2.target=ArrayList\ getPoints()
+comment2.text=\r\n\ Retrives\ the\ ArrayList\ of\ points\r\n\ \r\n\ @return\ ArrayList\ of\ points\r\n
+comment3.params=
+comment3.target=int[]\ getXOfPoints()
+comment3.text=\r\n\ Creates\ an\ array\ that\ contains\ every\ x\ coordinate\ of\ the\ points\r\n\ \r\n\ @return\ Integer\ Array\ of\ x\ of\ points\r\n
+comment4.params=
+comment4.target=int[]\ getYOfPoints()
+comment4.text=\r\n\ Creates\ an\ array\ that\ contains\ every\ y\ coordinate\ of\ the\ points\r\n\ \r\n\ @return\ Integer\ Array\ of\ y\ of\ points\r\n
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment5.text=\r\n\ Retrieves\ the\ name\ of\ the\ shape\r\n\ \r\n\ @return\ name\ of\ the\ shape\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Retrieves\ the\ verbal\ states\ of\ the\ shape\ including\ name\ and\ the\ points\r\n\ \r\n\ @return\ information\ of\ the\ shape\r\n
+comment7.params=point
+comment7.target=void\ addPoint(Point)
+comment7.text=\r\n\ Adds\ point\ to\ the\ array\ and\ changes\ the\ shape\r\n\ \r\n\ @param\ Point\ desired\ point\ that\ is\ being\ added\r\n
+numComments=8

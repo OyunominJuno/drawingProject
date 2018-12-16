@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ShapeLibrary
+comment0.text=\r\n\ ShapeLibrary\r\n\r\n\ @author\ \ Oyunomin\ Munkhkhurel\r\n\ @version\ 1/31/2018\r\n
+comment1.params=
+comment1.target=ShapeLibrary()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ShapeLibrary,\ arrayList\ of\ shapes\ is\ created,\ shape\ objects\ deserialized\r\n\ and\ added\ to\ the\ arrayList\r\n\ \r\n\ @throws\ FileNotFoundException\ e\ if\ there\ is\ no\ such\ a\ file\r\n\ @throws\ IOException\ e\ if\ there\ is\ lost\ connection\ etc\r\n\ @throws\ ClassNotFoundException\ e\ if\ there\ is\ no\ such\ a\ class\r\n
+comment2.params=
+comment2.target=ArrayList\ getShapes()
+comment2.text=\r\n\ Access\ to\ the\ arrayList\ of\ the\ shapes,\ designed\ for\ testing\ from\ the\ main\r\n\ \r\n\ @return\ arrayList\ containing\ shape\ objects\r\n
+comment3.params=shapeName
+comment3.target=Shape\ getShape(java.lang.String)
+comment3.text=\r\n\ Retrieves\ a\ shape\ from\ the\ arrayList\ of\ shapes\ by\ its\ name\r\n\ \r\n\ @throws\ IllegalArgumentException\ if\ desired\ name\ is\ null\r\n\ @param\ String\ shapeName\ desired\ name\ of\ the\ shape\r\n\ @return\ shape\ that\ corresponding\ to\ the\ given\ name\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Verbal\ report\ of\ the\ class\r\n
+numComments=5
